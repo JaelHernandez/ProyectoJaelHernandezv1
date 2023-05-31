@@ -1,0 +1,366 @@
+*¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+.Header{ 
+    height: 30vh;
+    background-color: rgb(0, 0, 0);
+}
+.Header__Nav{
+    height: 100%;
+
+}
+.Header__Nav__Div{
+    height: 100%;
+}
+.Header__Nav__Div__A{
+    width: 55%;
+}
+.Header__Nav__Div__A__Img{
+    width: 30%;
+}
+.Header__Nav__Div__Button{
+background-color: aliceblue;
+}
+.Header__Nav__Div__Div{
+    height: 100%;
+}
+.Header__Nav__Div__Div__Ul{
+    font-size: 1.5rem;
+
+}
+.Header__Nav__Div__Div__Ul__Li__Inicio {
+
+}
+.Header__Nav__Div__Div__Ul__Li__Inicio__A{
+color: blueviolet;
+}
+.Header__Nav__Div__Div__Ul__Li__SobreMi{
+
+}
+.Header__Nav__Div__Div__Ul__Li__SobreMi__A{
+    color: blueviolet;
+}
+.Header__Nav__Div__Div__Ul__Li__Ropa{
+
+}
+.Header__Nav__Div__Div__Ul__Li__Ropa__A{
+    color: blueviolet;
+}
+.Header__Nav__Div__Div__Ul__Li__Accesorios{
+
+}
+.Header__Nav__Div__Div__Ul__Li__Accesorios__A{
+    color: blueviolet;
+}
+.Header__Nav__Div__Div__Ul__Li__Contacto{
+
+}
+.Header__Nav__Div__Div__Ul__Li__Contacto__A{
+    color: blueviolet;
+}
+/* Main Inicio */
+.In__Ma__Sec1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.In__Ma__Sec1__H1{
+    display: flex;
+    justify-content: center;
+}
+.In__Ma__Sec1__Div {
+    display: flex;
+    
+}
+.In__Ma__Sec1__Div__P{
+padding: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.In__Ma__Sec1__Div__Img{
+width: 40%;
+}
+.In__Ma__Sec2{
+    display: flex;
+    flex-direction: column;
+}
+.In__Ma__Sec2__h2{
+    display: flex;
+justify-content: center;
+}
+.In__Ma__Sec2__Div__P{
+    display: flex;
+justify-content: center;
+}
+.In__Ma__Sec3{
+
+}
+.In__Ma__Sec3__h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.In__Ma__Sec3__Div{
+display: flex;
+}
+.In__Ma__Sec3__Div__Img{
+width: 30%;
+}
+.In__Ma__Sec3__Div__P{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5rem;
+padding: 3rem;
+}
+.In__Ma__Sec4{
+
+}
+.In__Ma__Sec4__H2a{
+display: flex;
+justify-content: center;
+}
+.In__Ma__Sec4__Div{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.In__Ma__Sec4__Div__Img{
+display: flex;
+justify-content: center;
+}
+.In__Ma__Sec4__Div__P{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 3rem;
+}
+.In__Ma__Sec4__h2b{
+    display: flex;
+    justify-content: center;
+}
+/* Main Sobre Mi */
+.Somi__Ma{}
+.Somi__Ma__Sec1{}
+.Somi__Ma__Sec1__H1{display: flex;
+justify-content: center;}
+.Somi__Ma__Sec1__Div{display: flex;}
+.Somi__Ma__Sec1__Div__Img{padding: 1rem;}
+.Somi__Ma__Sec1__Div__P{display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;}
+.Somi__Ma__Sec2{}
+.Somi__Ma__Sec2__H2{display: flex;
+justify-content: center;}
+.Somi__Ma__Sec2__Div{display: flex;
+flex-direction: row-reverse;}
+.Somi__Ma__Sec2__Div__Img{padding: 1rem;}
+.Somi__Ma__Sec2__Div__P{display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;}
+.Somi__Ma__Sec3{}
+.Somi__Ma__Sec3__H2{font-size: 1.5rem;
+display: flex;
+justify-content: center;}
+/* Main contacto */
+.Con__Ma__Se1{
+
+}
+.Con__Ma__Se1__H1{
+    display: flex;
+    justify-content: center;
+}
+.Con__Ma__Se1__Div1{
+
+}
+.Con__Ma__Se1__Div1__H2{
+    display: flex;
+    justify-content: center;
+}
+.Con__Ma__Se1__Div1__P{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+
+}
+.Con__Ma__Se1__Div2{
+
+}
+.Con__Ma__Se1__Div2__H2{
+display: flex;
+justify-content: center;
+}
+.Con__Ma__Se1__Div2__P{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.Con__Ma__Se2{
+
+}
+.Con__Ma__Se2__H2{
+
+}
+.Con__Ma__Se2__Form{
+
+}
+.Con__Ma__Se2__Form__Div1{
+
+}
+.Con__Ma__Se2__Form__Div1__Label1{
+
+}
+.Con__Ma__Se2__Form__Div1__Input1{
+
+}
+.Con__Ma__Se2__Form__Div2{
+
+}
+.Con__Ma__Se2__Form__Div2__Label2{
+
+}
+.Con__Ma__Se2__Form__Div2__Input2{
+
+}
+.Con__Ma__Se2__Form__Div3{
+
+}
+.Con__Ma__Se2__Form__Div3__label3{
+
+}
+.Con__Ma__Se2__Form__Div3__Textarea{
+
+}
+
+/* Main Ropa */
+.Ro__Ma{
+    background-color: gray;
+}
+.Ro__Ma__H1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color:black;
+    color: blueviolet;
+    margin-top: 1%;
+    font-size: 1.5rem;
+}
+.Ro__Ma__Se1__H2{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+.Ro__Ma__Se2__H1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+.Ro__Ma__Se3__H1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+.Ro__Ma__Se1__Se2__Se3__H2{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+
+/* Main Accesorios */
+.Acc__Ma{ background-color: gray;}
+.Acc__Ma__Se__H1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color:black;
+    color: blueviolet;
+    margin-top: 1%;
+    font-size: 1.5rem;
+}
+.Acc__Ma__H2{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+.Acc__Ma__H2a{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+.Acc__Ma__H2b{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+.Acc__Ma__H2c{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+.Acc__Ma__H2d{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: blueviolet;
+}
+/* Footer */
+.Footer{
+    background-color: black;
+}
+.Footer__Div{}
+.Footer__Div__A{}
+.Footer__Div__A__Img{}
+.Footer__Div__Span{
+    color:blueviolet
+}
+.Footer__Ul{}
+.Footer__Ul__Li1{}
+.Footer__Ul__Li1__A{}
+.Footer__Ul__Li1__A__I{color:blueviolet}
+.Footer__Ul__Li2{}
+.Footer__Ul__Li2__A{}
+.Footer__Ul__Li2__A__I{color:blueviolet}
+.Footer__Ul__Li3{}
+.Footer__Ul__Li3__A{}
+.Footer__Ul__Li3__A__I{color:blueviolet}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .Footer {
+      flex-wrap: nowrap;
+      width: 100%;
+      display: none;
+    }
+    .Footer .Footer__Div {
+      width: 50%;
+      flex-direction: column;
+    }
+    .Footer .Footer__Div .Footer__Div__A .Footer__Div__A__Img {
+      color: black;
+    }
+    .Footer .Footer__Div .Footer__Div__A .Footer__Div__A__Span {
+      color: black;
+    }
+  }
