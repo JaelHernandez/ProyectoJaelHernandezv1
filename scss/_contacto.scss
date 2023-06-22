@@ -1,0 +1,116 @@
+.Con__Ma {
+    background: linear-gradient(to right, #aa77fd, #7f00ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+    .Con__Ma__Se1 {
+        .Con__Ma__Se1__H1 {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            background-color: rgb(146, 13, 102);
+            color: rgb(0, 0, 0);
+            margin-top: 1%;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .Con__Ma__Se1__Div1 {
+            .Con__Ma__Se1__Div1__H2 {
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                background-color: black;
+                color: rgb(255, 255, 255);
+                border-radius: 10px 120px;
+            }
+
+            .Con__Ma__Se1__Div1__P {
+                display: flex;
+                justify-content: center;
+                padding: 3rem;
+
+            }
+        }
+
+        .Con__Ma__Se1__Div2 {
+            .Con__Ma__Se1__Div2__H2 {
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                background-color: black;
+                color: rgb(255, 255, 255);
+                border-radius: 10px 120px;
+            }
+
+            .Con__Ma__Se1__Div2__P {
+                display: flex;
+                justify-content: center;
+                padding: 3rem;
+            }
+        }
+    }
+
+    .Con__Ma__Se2 {
+        padding-bottom: 2rem;
+
+        .Con__Ma__Se2__Form {
+            display: block;
+            text-align: center;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            border-radius: 10px 10px;
+            border: 1px solid black;
+            padding-bottom: 2rem;
+
+            .Con__Ma__Se2__H2 {
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                background-color: black;
+                color: rgb(255, 255, 255);
+                border-radius: 10px 10px;
+
+            }
+
+            /*
+            .Con__Ma__Se2__Form__Div1{
+                .Con__Ma__Se2__Form__Div1__Label1{
+
+                }
+                .Con__Ma__Se2__Form__Div1__Input1{
+                
+                }
+            }
+            .Con__Ma__Se2__Form__Div2{
+                .Con__Ma__Se2__Form__Div2__Label2{
+
+                }
+                .Con__Ma__Se2__Form__Div2__Input2{
+                
+                }
+            }
+            .Con__Ma__Se2__Form__Div3{
+                .Con__Ma__Se2__Form__Div3__label3{
+
+                }
+                .Con__Ma__Se2__Form__Div3__Textarea{
+                
+                }*/
+        }
+    }
+
+}
+
+.Con__Ma__Se1__Se2__H2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 120px 120px 120px;
+    font-size: 1.3rem;
+}

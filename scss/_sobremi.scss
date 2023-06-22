@@ -1,0 +1,87 @@
+.Somi__Ma{
+    background: linear-gradient(to right, #aa77fd, #7f00ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1rem;
+    .Somi__Ma__H1{  
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        background-color:rgb(146, 13, 102);;
+        color: rgb(0, 0, 0);
+        margin-top: 1%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .Somi__Ma__Sec1{
+        display: flex;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        .Somi__Ma__Sec1__Div1{
+            .Somi__Ma__Sec1__Div__Img{
+                border: 3px solid black; /* Color y grosor del borde */
+                border-radius: 10px;
+            }
+        } 
+        .Somi__Ma__Sec1__Div1__Div2{
+            .Somi__Ma__Sec1__Div1__Div2__P{
+                text-align: center;
+            font-size: 1.1rem;
+            align-items: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.226);
+            border: solid rgb(39, 36, 36);
+            padding-left: 3.8rem;
+            padding-right: 3.8rem;
+            }
+        }    
+    }
+    .Somi__Ma__H2{  
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border-radius: 10px 120px;
+    }
+    .Somi__Ma__Sec2{
+        display: flex;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        padding-right: 3rem;
+        .Somi__Ma__Sec2__Div1{
+            display: flex;
+            .Somi__Ma__Sec2__Div1__Div1{
+                .Somi__Ma__Sec2__Div1__Div1__P{
+                    text-align: center;
+                    font-size: 1rem;
+                    align-items: center;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.226);
+                    border: solid rgb(39, 36, 36);
+                    padding-left: 3.8rem;
+                    padding-right: 3.8rem;}
+            }
+            .Somi__Ma__Sec2__Div1__Div2{
+                .Somi__Ma__Sec2__Div__Img{
+                    border: 3px solid black; /* Color y grosor del borde */
+                    border-radius: 10px;    
+                }
+            }    
+        } 
+    } 
+    .Somi__Ma__Sec3{
+        .Somi__Ma__Sec3__H2{ 
+            font-size: 1.3rem;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            border-radius: 120px 120px 120px;
+        }
+    }
+}

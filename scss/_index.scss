@@ -10,7 +10,6 @@
         justify-content: center;
         padding: 1rem;
         background-color: rgb(146, 13, 102);
-        ;
         color: rgb(0, 0, 0);
         margin-top: 1%;
         font-size: 1.5rem;
@@ -30,7 +29,6 @@
                 align-items: center;
 
                 .In__Ma__Sec1__Div1__Div1__Img {
-
                     border-radius: 30px;
                     border-color: black;
                     padding-left: 1rem;
@@ -38,35 +36,99 @@
                     padding-right: 1rem;
                 }
 
-                
+
             }
-            .in__Ma__Sec1__Div1__Div2{
+
+            .in__Ma__Sec1__Div1__Div2 {
                 .In__Ma__Sec1__Div1__Div2__P {
-                    padding: 2rem;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    font-weight: 700;
                     text-align: center;
+                    font-size: 1.1rem;
+                    align-items: center;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.226);
+                    border: solid rgb(39, 36, 36);
+                    padding-left: 3.8rem;
+                    padding-right: 3.8rem;
                 }
             }
 
         }
     }
-    .In__Ma__Sec2{
+
+    .In__Ma__Sec2 {
         display: flex;
         flex-direction: column;
-        .In__Ma__Sec2__h2{
+
+        .In__Ma__Sec2__h2 {
             display: flex;
             justify-content: center;
             padding: 1rem;
             background-color: black;
             color: rgb(255, 255, 255);
             border-radius: 10px 120px;
-            .in__Ma__Sec2__Div1{
-                .in__Ma__Sec2__Div1__Div1{
-                    .In__Ma__Sec2__Div1__Div1__Img{}
+
+            .in__Ma__Sec2__Div1 {
+                display: flex;
+                margin-top: 2rem;
+
+                .in__Ma__Sec2__Div1__Div1 {
+                    .In__Ma__Sec2__Div1__Div1__Img {
+                        border-radius: 30rem;
+                        padding-top: 2rem;
+                        padding-left: 2rem;
+                        padding-bottom: 2rem;
+                        padding-right: 2rem;
+                    }
                 }
+            }
+
+            .in__Ma__Sec2__Div1__Div1__Div2 {
+                .In__Ma__Sec2__Div__Div1__Div2__P {
+                    text-align: center;
+                    font-size: 1.1rem;
+                    align-items: center;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.226);
+                    border: solid rgb(39, 36, 36);
+                    padding-left: 3.8rem;
+                    padding-right: 3.8rem;
+                }
+            }
+        }
+
+        .In__Ma__Sec3 {
+            display: flex;
+            flex-direction: column;
+
+            .In__Ma__Sec3__H2a {
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                background-color: black;
+                color: rgb(255, 255, 255);
+                border-radius: 10px 120px;
+            }
+
+            .In__Ma__Sec3__Div {
+                display: flex;
+                justify-content: space-evenly;
+
+                .In__Ma__Sec3__Div__Img {
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .In__Ma__Sec3__h2b {
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                background-color: black;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                border-radius: 120px 120px 120px;
             }
         }
     }

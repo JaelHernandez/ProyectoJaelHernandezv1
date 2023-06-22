@@ -1,0 +1,62 @@
+.Footer {
+    background-color: black;
+
+    .Footer__Div {
+        .Footer__Div__A {
+            .Footer__Div__A__Img {}
+        }
+
+        .Footer__Div__Span {
+            color: blueviolet
+        }
+    }
+
+    .Footer__Ul {
+        .Footer__Ul__Li1 {
+            .Footer__Ul__Li1__A {
+                .Footer__Ul__Li1__A__I {
+                    color: blueviolet
+                }
+            }
+        }
+
+        .Footer__Ul__Li2 {
+            .Footer__Ul__Li2__A {
+                .Footer__Ul__Li2__A__I {
+                    color: blueviolet
+                }
+            }
+        }
+
+        .Footer__Ul__Li3 {
+            .Footer__Ul__Li3__A {
+                .Footer__Ul__Li3__A__I {
+                    color: blueviolet
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .Footer {
+        flex-wrap: nowrap;
+        width: 100%;
+        display: none;
+
+        .Footer__Div {
+            width: 50%;
+            flex-direction: column;
+        }
+
+        .Footer__Div__A {
+            .Footer__Div__A__Img {
+                color: black;
+                .Footer__Div__A__Span {
+                    color: black;
+                }
+            }
+        }
+    }
+
+}
