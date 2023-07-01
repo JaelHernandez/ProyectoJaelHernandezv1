@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+/*maps*/
 * {
   margin: 0;
   padding: 0;
@@ -74,36 +74,29 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   background-color: rgb(146, 13, 102);
   color: rgb(0, 0, 0);
   margin-top: 1%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 .In__Ma .In__Ma__Sec1 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
-.In__Ma .In__Ma__Sec1 .In__Ma__Sec1__Div1 .in__Ma__Sec1__Div1__Div1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.In__Ma .In__Ma__Sec1 .In__Ma__Sec1__Div1 .in__Ma__Sec1__Div1__Div1 .In__Ma__Sec1__Div1__Div1__Img {
-  border-radius: 30px;
-  border-color: black;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-}
-.In__Ma .In__Ma__Sec1 .In__Ma__Sec1__Div1 .in__Ma__Sec1__Div1__Div2 .In__Ma__Sec1__Div1__Div2__P {
+.In__Ma .In__Ma__Sec1 .in__Ma__Sec1__Div1 .In__Ma__Sec1__Div1__P {
   text-align: center;
   font-size: 1.1rem;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.226);
   border: solid rgb(39, 36, 36);
-  padding-left: 3.8rem;
-  padding-right: 3.8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.In__Ma .In__Ma__Sec1 .in__Ma__Sec1__Div1 .In__Ma__Sec1__Div1__P span {
+  font-size: 1.3rem;
+  color: rgb(255, 111, 207);
 }
 .In__Ma .In__Ma__Sec2 {
   display: flex;
@@ -117,32 +110,42 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   color: rgb(255, 255, 255);
   border-radius: 10px 120px;
 }
-.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__h2 .in__Ma__Sec2__Div1 {
+.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__Div1 {
   display: flex;
   margin-top: 2rem;
 }
-.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__h2 .in__Ma__Sec2__Div1 .in__Ma__Sec2__Div1__Div1 .In__Ma__Sec2__Div1__Div1__Img {
-  border-radius: 30rem;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
+.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__Div1 .in__Ma__Sec2__Div1__Div1 {
+  margin-top: 2rem;
+}
+.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__Div1 .in__Ma__Sec2__Div1__Div1 .in__Ma__Sec2__Div1__Div1__Div1 {
+  padding-bottom: 3rem;
   padding-right: 2rem;
 }
-.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__h2 .in__Ma__Sec2__Div1__Div1__Div2 .In__Ma__Sec2__Div__Div1__Div2__P {
+.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__Div1 .in__Ma__Sec2__Div1__Div1 .in__Ma__Sec2__Div1__Div1__Div1 .In__Ma__Sec2__Div1__Div1__Div1__Img {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__Div1 .in__Ma__Sec2__Div1__Div1 .in__Ma__Sec2__Div1__Div1__Div2 {
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+}
+.In__Ma .In__Ma__Sec2 .In__Ma__Sec2__Div1 .in__Ma__Sec2__Div1__Div1 .in__Ma__Sec2__Div1__Div1__Div2 .In__Ma__Sec2__Div__Div1__Div2__P {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.226);
   border: solid rgb(39, 36, 36);
-  padding-left: 3.8rem;
-  padding-right: 3.8rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3.5rem;
 }
-.In__Ma .In__Ma__Sec2 .In__Ma__Sec3 {
+.In__Ma .In__Ma__Sec3 {
   display: flex;
   flex-direction: column;
 }
-.In__Ma .In__Ma__Sec2 .In__Ma__Sec3 .In__Ma__Sec3__H2a {
+.In__Ma .In__Ma__Sec3 .In__Ma__Sec3__H2a {
   display: flex;
   justify-content: center;
   padding: 1rem;
@@ -150,17 +153,19 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   color: rgb(255, 255, 255);
   border-radius: 10px 120px;
 }
-.In__Ma .In__Ma__Sec2 .In__Ma__Sec3 .In__Ma__Sec3__Div {
+.In__Ma .In__Ma__Sec3 .In__Ma__Sec3__Div {
   display: flex;
   justify-content: space-evenly;
-}
-.In__Ma .In__Ma__Sec2 .In__Ma__Sec3 .In__Ma__Sec3__Div .In__Ma__Sec3__Div__Img {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.In__Ma .In__Ma__Sec3 .In__Ma__Sec3__Div .In__Ma__Sec3__Div__Img {
   display: flex;
   justify-content: center;
+  border: 3px solid black;
+  border-radius: 10px;
 }
-.In__Ma .In__Ma__Sec2 .In__Ma__Sec3 .In__Ma__Sec3__h2b {
+.In__Ma .In__Ma__Sec3__h2b {
   display: flex;
   justify-content: center;
   padding: 1rem;
@@ -193,19 +198,30 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
-.Somi__Ma .Somi__Ma__Sec1 .Somi__Ma__Sec1__Div1 .Somi__Ma__Sec1__Div__Img {
-  border: 3px solid black; /* Color y grosor del borde */
+.Somi__Ma .Somi__Ma__Sec1 .Somi__Ma__Sec1__Div1 .Somi__Ma__Sec1__Div1__Div1 {
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+.Somi__Ma .Somi__Ma__Sec1 .Somi__Ma__Sec1__Div1 .Somi__Ma__Sec1__Div1__Div1 .Somi__Ma__Sec1__Div1__Div1__Img {
+  border: 3px solid black;
   border-radius: 10px;
 }
-.Somi__Ma .Somi__Ma__Sec1 .Somi__Ma__Sec1__Div1__Div2 .Somi__Ma__Sec1__Div1__Div2__P {
+.Somi__Ma .Somi__Ma__Sec1 .Somi__Ma__Sec1__Div1 .Somi__Ma__Sec1__Div1__Div2 {
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.Somi__Ma .Somi__Ma__Sec1 .Somi__Ma__Sec1__Div1 .Somi__Ma__Sec1__Div1__Div2 .Somi__Ma__Sec1__Div1__Div2__P {
   text-align: center;
   font-size: 1.1rem;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.226);
   border: solid rgb(39, 36, 36);
-  padding-left: 3.8rem;
-  padding-right: 3.8rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 }
 .Somi__Ma .Somi__Ma__H2 {
   display: flex;
@@ -215,27 +231,40 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   color: rgb(255, 255, 255);
   border-radius: 10px 120px;
 }
-.Somi__Ma .Somi__Ma__Sec2 {
-  display: flex;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  padding-right: 3rem;
-}
 .Somi__Ma .Somi__Ma__Sec2 .Somi__Ma__Sec2__Div1 {
   display: flex;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+.Somi__Ma .Somi__Ma__Sec2 .Somi__Ma__Sec2__Div1 .Somi__Ma__Sec2__Div1__Div1 {
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .Somi__Ma .Somi__Ma__Sec2 .Somi__Ma__Sec2__Div1 .Somi__Ma__Sec2__Div1__Div1 .Somi__Ma__Sec2__Div1__Div1__P {
   text-align: center;
   font-size: 1rem;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.226);
   border: solid rgb(39, 36, 36);
-  padding-left: 3.8rem;
-  padding-right: 3.8rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+}
+.Somi__Ma .Somi__Ma__Sec2 .Somi__Ma__Sec2__Div1 .Somi__Ma__Sec2__Div1__Div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 .Somi__Ma .Somi__Ma__Sec2 .Somi__Ma__Sec2__Div1 .Somi__Ma__Sec2__Div1__Div2 .Somi__Ma__Sec2__Div__Img {
-  border: 3px solid black; /* Color y grosor del borde */
+  border: 3px solid black;
   border-radius: 10px;
 }
 .Somi__Ma .Somi__Ma__Sec3 .Somi__Ma__Sec3__H2 {
@@ -664,6 +693,9 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   background-size: cover;
   font-family: "Montserrat", sans-serif;
 }
+.Con__Ma .Con__Ma__Se1 {
+  padding-top: 1rem;
+}
 .Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__H1 {
   display: flex;
   justify-content: center;
@@ -674,6 +706,9 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   font-size: 1.5rem;
   text-align: center;
 }
+.Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__Div1 {
+  padding-top: 2rem;
+}
 .Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__Div1 .Con__Ma__Se1__Div1__H2 {
   display: flex;
   justify-content: center;
@@ -682,10 +717,23 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   color: rgb(255, 255, 255);
   border-radius: 10px 120px;
 }
-.Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__Div1 .Con__Ma__Se1__Div1__P {
-  display: flex;
-  justify-content: center;
-  padding: 3rem;
+.Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__Div1 .Con__Ma__Se1__Div1__Div1 {
+  padding-top: 1rem;
+}
+.Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__Div1 .Con__Ma__Se1__Div1__Div1 .Con__Ma__Se1__Div1__Div1__P {
+  text-align: center;
+  font-size: 1.1rem;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.226);
+  border: solid rgb(39, 36, 36);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__Div2 {
+  margin-top: 2rem;
 }
 .Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__Div2 .Con__Ma__Se1__Div2__H2 {
   display: flex;
@@ -696,9 +744,16 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   border-radius: 10px 120px;
 }
 .Con__Ma .Con__Ma__Se1 .Con__Ma__Se1__Div2 .Con__Ma__Se1__Div2__P {
-  display: flex;
-  justify-content: center;
-  padding: 3rem;
+  text-align: center;
+  font-size: 1.1rem;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.226);
+  border: solid rgb(39, 36, 36);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .Con__Ma .Con__Ma__Se2 {
   padding-bottom: 2rem;
@@ -708,7 +763,7 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   text-align: center;
   background-color: black;
   color: rgb(255, 255, 255);
-  border-radius: 10px 10px;
+  border-radius: 10px;
   border: 1px solid black;
   padding-bottom: 2rem;
   /*
@@ -742,7 +797,7 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
   padding: 1rem;
   background-color: black;
   color: rgb(255, 255, 255);
-  border-radius: 10px 10px;
+  border-radius: 10px 120px;
 }
 
 .Con__Ma__Se1__Se2__H2 {
@@ -758,6 +813,11 @@ header .Header__Nav .Header__Nav__Div .Header__Nav__Div__Div .Header__Nav__Div__
 
 .Footer {
   background-color: black;
+}
+.Footer .Footer__Div {
+  /*  .Footer__Div__A {
+       .Footer__Div__A__Img {}
+   } */
 }
 .Footer .Footer__Div .Footer__Div__Span {
   color: blueviolet;

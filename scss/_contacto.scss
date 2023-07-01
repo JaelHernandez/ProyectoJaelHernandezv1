@@ -1,54 +1,81 @@
 .Con__Ma {
-    background: linear-gradient(to right, #aa77fd, #7f00ff);
+    background: $fondo-violeta-degrade;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
 
     .Con__Ma__Se1 {
+        padding-top: 1rem;
+
         .Con__Ma__Se1__H1 {
             display: flex;
             justify-content: center;
             padding: 1rem;
-            background-color: rgb(146, 13, 102);
-            color: rgb(0, 0, 0);
+            background-color: $fondo-titulo-principal;
+            color: $fuente-color-principal;
             margin-top: 1%;
             font-size: 1.5rem;
-            text-align: center;
+            text-align: $text-aling;
+
         }
 
         .Con__Ma__Se1__Div1 {
+            padding-top: 2rem;
+
             .Con__Ma__Se1__Div1__H2 {
                 display: flex;
                 justify-content: center;
                 padding: 1rem;
-                background-color: black;
-                color: rgb(255, 255, 255);
-                border-radius: 10px 120px;
+                background-color: $fondo-titulo-secundario;
+                color: $fuente-color-secundario;
+                border-radius: $bordes-titulo-secundario;
+
             }
 
-            .Con__Ma__Se1__Div1__P {
-                display: flex;
-                justify-content: center;
-                padding: 3rem;
+            .Con__Ma__Se1__Div1__Div1 {
+                padding-top: 1rem;
 
+                .Con__Ma__Se1__Div1__Div1__P {
+                    text-align: $text-aling;
+                    font-size: 1.1rem;
+                    align-items: center;
+                    color: $fuente-color-secundario;
+                    background-color: $fondo-p;
+                    border: $bordes-p;
+                    padding-left: 3rem;
+                    padding-right: map-get($paddingright, P3);
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+
+                }
             }
         }
 
         .Con__Ma__Se1__Div2 {
+            margin-top: 2rem;
+
             .Con__Ma__Se1__Div2__H2 {
                 display: flex;
                 justify-content: center;
                 padding: 1rem;
-                background-color: black;
-                color: rgb(255, 255, 255);
-                border-radius: 10px 120px;
+                background-color: $fondo-titulo-secundario;
+                color: $fuente-color-secundario;
+                border-radius: $bordes-titulo-secundario;
             }
 
             .Con__Ma__Se1__Div2__P {
-                display: flex;
-                justify-content: center;
-                padding: 3rem;
+                text-align: $text-aling;
+                font-size: 1.1rem;
+                align-items: center;
+                color: $fuente-color-secundario;
+                background-color: $fondo-p;
+                border: $bordes-p;
+                padding-left: 3rem;
+                padding-right: map-get($paddingright, P3);
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+
             }
         }
     }
@@ -58,10 +85,10 @@
 
         .Con__Ma__Se2__Form {
             display: block;
-            text-align: center;
-            background-color: black;
-            color: rgb(255, 255, 255);
-            border-radius: 10px 10px;
+            text-align: $text-aling;
+            background-color: $fondo-titulo-secundario;
+            color: $fuente-color-secundario;
+            border-radius: $bordes-imagenes;
             border: 1px solid black;
             padding-bottom: 2rem;
 
@@ -69,9 +96,9 @@
                 display: flex;
                 justify-content: center;
                 padding: 1rem;
-                background-color: black;
-                color: rgb(255, 255, 255);
-                border-radius: 10px 10px;
+                background-color: $fondo-titulo-secundario;
+                color: $fuente-color-secundario;
+                border-radius: $bordes-titulo-secundario;
 
             }
 
@@ -108,9 +135,9 @@
     display: flex;
     justify-content: center;
     padding: 1rem;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    border-radius: 120px 120px 120px;
+    background-color: $fondo-titulo-secundario;
+    color: $fuente-color-secundario;
+    text-align: $text-aling;
+    border-radius: $bordes-piedepagina;
     font-size: 1.3rem;
 }

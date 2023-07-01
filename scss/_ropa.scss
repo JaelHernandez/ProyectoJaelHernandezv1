@@ -1,5 +1,5 @@
 .Ro__Ma {
-    background: linear-gradient(to right, #aa77fd, #7f00ff);
+    background: $fondo-violeta-degrade;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -10,12 +10,11 @@
         display: flex;
         justify-content: center;
         padding: 1rem;
-        background-color: rgb(146, 13, 102);
-        ;
-        color: rgb(0, 0, 0);
+        background-color:$fondo-titulo-principal;
+        color:$fuente-color-principal;
         margin-top: 1%;
         font-size: 1.5rem;
-        text-align: center;
+        text-align: $text-aling;
     }
 
     .Ro__Ma__Se1 {
@@ -26,9 +25,9 @@
             display: flex;
             justify-content: center;
             padding: 1rem;
-            background-color: black;
-            color: rgb(255, 255, 255);
-            border-radius: 10px 120px;
+            background-color: $fondo-titulo-secundario;
+            color: $fuente-color-secundario;
+            border-radius: $bordes-titulo-secundario;
         }
 
         .Ro__Ma__Se1__Div1 {
@@ -38,8 +37,8 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se1__Div1__Div1__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                 }
             }
 
@@ -47,15 +46,15 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se1__Div1__Div2__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                 }
             }
 
             .Ro__Ma__Div1__Div1__Div3 {
                 .Ro__Ma__Se1__Div1__Div3__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border:$bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
         }
@@ -67,8 +66,8 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se1__Div2__Div1__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                 }
             }
 
@@ -76,15 +75,15 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se1__Div2__Div2__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
             .Ro__Ma__Se1__Div2__Div3 {
                 .Ro__Ma__Se1__Div2__Div3__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                 }
             }
         }
@@ -96,8 +95,8 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se1__Div3__Div1__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
@@ -105,15 +104,15 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se1__Div3__Div2__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border:$bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                 }
             }
 
             .Ro__Ma__Div1__Div3__Div3 {
                 .Ro__Ma__Se1__Div3__Div3__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
         }
@@ -128,9 +127,9 @@
             display: flex;
             justify-content: center;
             padding: 1rem;
-            background-color: black;
-            color: rgb(255, 255, 255);
-            border-radius: 10px 120px;
+            background-color:$fondo-titulo-secundario;
+            color:$fuente-color-secundario;
+            border-radius: $bordes-titulo-secundario;
         }
 
         .Ro__Ma__Se2__Div1 {
@@ -140,8 +139,8 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se2__Div1__Div1_Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
@@ -149,15 +148,15 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se2__Div1__Div2__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
             .Ro__Ma__Se2__Div1__Div3 {
                 .Ro__Ma__Se2__Div1__Div3__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
         }
@@ -169,8 +168,8 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se2__Div2__Div1__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
@@ -178,15 +177,15 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se2__Div2__Div2__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
             .Ro__Ma__Se2__Div2__Div3 {
                 .Ro__Ma__Se2__Div2__Div3__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
         }
@@ -198,8 +197,8 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se2__Div3__Div1__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                 }
             }
 
@@ -207,15 +206,15 @@
                 padding-bottom: 2rem;
 
                 .Ro__Ma__Se2__Div3__Div2__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
             .Ro__Ma__Se2__Div3__Div3 {
                 .Ro__Ma__Se2__Div3__Div3__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                 }
             }
         }
@@ -229,9 +228,9 @@
             display: flex;
             justify-content: center;
             padding: 1rem;
-            background-color: black;
-            color: rgb(255, 255, 255);
-            border-radius: 10px 120px;
+            background-color:$fondo-titulo-secundario;
+            color:$fuente-color-secundario;
+            border-radius: $bordes-titulo-secundario;
         }
 
         .Ro__Ma__Se3__Div1 {
@@ -242,17 +241,17 @@
                 padding-left: 2rem;
 
                 .Ro__Ma__Se3__Div1__Div1__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border:$bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
             .Ro__Ma__Se3__Div1__Div2 {
-                padding-right: 2rem;
+                padding-right: map-get($paddingright , P2 );
 
                 .Ro__Ma__Se3__Div1__Div2__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                 }
             }
         }
@@ -266,15 +265,15 @@
                 }
 
                 .Ro__Ma__Se3__Div2__Div1__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
             .Ro__Ma__Se3__Div2__Div2 {
                 .Ro__Ma__Se3__Div2__Div2__Img {
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                 }
             }
 
@@ -284,14 +283,14 @@
             .Ro__Ma__Se3__Div3__Div1{
                 padding-bottom: 2rem;
                 .Ro__Ma__Se3__Div3__Div1__Img{
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                }
             }
             .Ro__Ma__Se3__Div3__Div2{
                 .Ro__Ma__Se3__Div3__Div2__Img{
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
                }
             }
         }
@@ -300,21 +299,22 @@
             .Ro__Ma__Se3__Div4__Div1{
                 padding-bottom: 1rem;
                 .Ro__Ma__Se3__Div4__Div1__Img{
-                    border: 3px solid black;
-                    border-radius: 10px;
+                    border: $bordes-color-imagen;
+                    border-radius: $bordes-imagenes;
                }
             }
             .Ro__Ma__Se3__Div4__Div2{
                 .Ro__Ma__Se3__Div4__Div2__Img{
-                    border: 3px solid black;
-                    border-radius: 10px;.Ro__Ma__Se1__Se2__Se3__H2{
+                    border:$bordes-color-imagen;
+                    border-radius:$bordes-imagenes;
+                    .Ro__Ma__Se1__Se2__Se3__H2{
                         display: flex;
                         justify-content: center;
                         padding: 1rem;
-                        background-color: black;
-                        color: rgb(255, 255, 255);
-                        text-align: center;
-                        border-radius: 120px 120px 120px;
+                        background-color:$fondo-titulo-secundario;
+                        color:$fuente-color-secundario;
+                        text-align:$text-aling;
+                        border-radius:$bordes-piedepagina;
                         font-size: 1.3rem;
                     }
                     
@@ -327,10 +327,10 @@
         display: flex;
         justify-content: center;
         padding: 1rem;
-        background-color: black;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        border-radius: 120px 120px 120px;
+        background-color:$fondo-titulo-secundario;
+        color: $fuente-color-secundario;
+        text-align: $text-aling;
+        border-radius: $bordes-piedepagina;
         font-size: 1.3rem;
     }
     

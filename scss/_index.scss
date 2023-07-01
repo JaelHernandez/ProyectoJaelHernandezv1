@@ -1,5 +1,5 @@
 .In__Ma {
-    background: linear-gradient(to right, #aa77fd, #7f00ff);
+    background: $fondo-violeta-degrade;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -9,48 +9,42 @@
         display: flex;
         justify-content: center;
         padding: 1rem;
-        background-color: rgb(146, 13, 102);
-        color: rgb(0, 0, 0);
+        background-color: $fondo-titulo-principal;
+        color: $fuente-color-principal;
         margin-top: 1%;
-        font-size: 1.5rem;
-        text-align: center;
+        font-size: 2rem;
+        text-align: $text-aling;
     }
 
     .In__Ma__Sec1 {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        
 
-        .In__Ma__Sec1__Div1 {
-            .in__Ma__Sec1__Div1__Div1 {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+
+        .in__Ma__Sec1__Div1 {
+          
+
+            .In__Ma__Sec1__Div1__P{
+                text-align: $text-aling;
+                font-size: 1.1rem;
                 align-items: center;
+                color: $fuente-color-secundario;
+                background-color: $fondo-p;
+                border: $bordes-p;
+                padding-left: 3rem;
+                padding-right: map-get($paddingright, P3);
+                padding-top: 3rem;
+                padding-bottom: 3rem;
 
-                .In__Ma__Sec1__Div1__Div1__Img {
-                    border-radius: 30px;
-                    border-color: black;
-                    padding-left: 1rem;
-                    padding-bottom: 1rem;
-                    padding-right: 1rem;
-                }
+                span {
+                    font-size: 1.3rem;
+                    color: rgb(255, 111, 207);
 
-
-            }
-
-            .in__Ma__Sec1__Div1__Div2 {
-                .In__Ma__Sec1__Div1__Div2__P {
-                    text-align: center;
-                    font-size: 1.1rem;
-                    align-items: center;
-                    color: white;
-                    background-color: rgba(0, 0, 0, 0.226);
-                    border: solid rgb(39, 36, 36);
-                    padding-left: 3.8rem;
-                    padding-right: 3.8rem;
                 }
             }
+
 
         }
     }
@@ -63,73 +57,90 @@
             display: flex;
             justify-content: center;
             padding: 1rem;
-            background-color: black;
-            color: rgb(255, 255, 255);
-            border-radius: 10px 120px;
+            background-color: $fondo-titulo-secundario;
+            color: $fuente-color-secundario;
+            border-radius: $bordes-titulo-secundario;
+           
+        }
 
-            .in__Ma__Sec2__Div1 {
-                display: flex;
+        .In__Ma__Sec2__Div1 {
+            display: flex;
+            margin-top: 2rem;
+
+            .in__Ma__Sec2__Div1__Div1 {
                 margin-top: 2rem;
 
-                .in__Ma__Sec2__Div1__Div1 {
-                    .In__Ma__Sec2__Div1__Div1__Img {
-                        border-radius: 30rem;
-                        padding-top: 2rem;
+                .in__Ma__Sec2__Div1__Div1__Div1 {
+                    padding-bottom: 3rem;
+                    padding-right: map-get($paddingright, P2);
+                    .In__Ma__Sec2__Div1__Div1__Div1__Img {
+                        border: $bordes-color-imagen;
+                        border-radius: $bordes-imagenes;
+                    }
+                }
+                .in__Ma__Sec2__Div1__Div1__Div2 {
+                    padding-bottom: 3rem;
+                    padding-right: 2rem;
+                    .In__Ma__Sec2__Div__Div1__Div2__P {
+                        text-align: center;
+                        font-size: 1rem;
+                        align-items: center;
+                        color: $fuente-color-secundario;
+                        background-color: $fondo-p;
+                        border: $bordes-p;
+                        padding-top: 3rem;
                         padding-left: 2rem;
-                        padding-bottom: 2rem;
-                        padding-right: 2rem;
+                        padding-right: map-get($paddingright, P2);
+                        padding-bottom:3.5rem;
                     }
                 }
             }
 
-            .in__Ma__Sec2__Div1__Div1__Div2 {
-                .In__Ma__Sec2__Div__Div1__Div2__P {
-                    text-align: center;
-                    font-size: 1.1rem;
-                    align-items: center;
-                    color: white;
-                    background-color: rgba(0, 0, 0, 0.226);
-                    border: solid rgb(39, 36, 36);
-                    padding-left: 3.8rem;
-                    padding-right: 3.8rem;
-                }
-            }
-        }
-
-        .In__Ma__Sec3 {
-            display: flex;
-            flex-direction: column;
-
-            .In__Ma__Sec3__H2a {
-                display: flex;
-                justify-content: center;
-                padding: 1rem;
-                background-color: black;
-                color: rgb(255, 255, 255);
-                border-radius: 10px 120px;
-            }
-
-            .In__Ma__Sec3__Div {
-                display: flex;
-                justify-content: space-evenly;
-
-                .In__Ma__Sec3__Div__Img {
-                    padding-top: 2rem;
-                    padding-bottom: 2rem;
-                    display: flex;
-                    justify-content: center;
-                }
-            }
-
-            .In__Ma__Sec3__h2b {
-                display: flex;
-                justify-content: center;
-                padding: 1rem;
-                background-color: black;
-                color: rgb(255, 255, 255);
-                text-align: center;
-                border-radius: 120px 120px 120px;
-            }
+            
         }
     }
+
+    .In__Ma__Sec3 {
+        display: flex;
+        flex-direction: column;
+
+
+        .In__Ma__Sec3__H2a {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            background-color: $fondo-titulo-secundario;
+            color: $fuente-color-secundario;
+            border-radius: $bordes-titulo-secundario;
+        }
+
+        .In__Ma__Sec3__Div {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            .In__Ma__Sec3__Div__Img {
+              
+                display: flex;
+                justify-content: center;
+                border: $bordes-color-imagen;
+                border-radius: $bordes-imagenes;
+            }
+        }
+
+
+    }
+
+    .In__Ma__Sec3__h2b {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        background-color: $fondo-titulo-secundario;
+        color: $fuente-color-secundario;
+        text-align: $text-aling;
+        border-radius: $bordes-piedepagina;
+        
+    }
+
 }
